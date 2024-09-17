@@ -1,0 +1,222 @@
+body {
+  background-color: #F5F7F8;
+  height: 420px;
+  width: 260px ;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  font-family: Arial, sans-serif;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.topdiv{
+  display:flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.clipboardbutton
+{
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clipboardbutton:hover {
+  background-color: #45a049;
+}
+.generatebutton
+{
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.generatebutton:hover{
+  background-color: #45a049;
+}
+.success-message {
+  background-color: #d4edda; 
+  color: #45a049; 
+  border: 1px solid #c3e6cb; 
+  padding: 1px 10px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  font-size: 12px; 
+  font-family: Arial, sans-serif;
+  margin: 20px 0; 
+ 
+}
+h3{
+  line-height: 1.5;
+  margin :16px auto 20px ;
+}
+
+ a {
+  color: #564949; 
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: color 0.3s ease; 
+  
+}
+
+ a:hover {
+  color: #cfbcbc; 
+  cursor: pointer;
+   
+}
+.linkto{
+  
+  text-align: center;
+  margin: 20px 60px 10px;
+  
+  
+}
+
+.pre-made-container {
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  margin-top: -20px;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 5px;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 1px;  
+  
+}
+
+.card-prompt {
+  font-size: 12px;
+  margin-bottom: 5px;
+  transform: translateY(-10px);
+}
+
+.copy-button {
+  font-size: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.copy-button:hover {
+  background-color: #45a049;
+}
+
+.copy-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.toggle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  width: 80px;
+  height: 30px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-button .slider {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.3s;
+}
+
+.toggle-button.right {
+  background-color: #007bff;
+}
+
+.toggle-button.right .slider {
+  transform: translateX(45px);
+}
+
+.toggle-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.toggle-labels span {
+  font-size: 14px;
+  color: #666;
+}
+
+.toggle-labels span.active {
+  font-weight: bold;
+  color: #333;
+}
